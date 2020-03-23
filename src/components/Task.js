@@ -17,6 +17,7 @@ export default function Task({
         />
         <span className="checkbox-custom" onClick={() => onArchiveTask(id)} />
       </label>
+
       <div className="title">
         <input
           type="text"
